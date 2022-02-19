@@ -1,0 +1,66 @@
+Q.1  In the below elements which of them are values or an expression? eg:- values can be
+     integer or string and expressions will be mathematical operators.
+     *
+     'hello'
+     -87.8
+     -
+     /
+     +
+     6
+Ans. Of the above elements, '*','+','-','/' are expressions while 'hello','-87.8','6' are values
+
+
+
+Q.2  What is the difference between string and variable?
+Ans. A variable is a store of information while a string is the type of information you would like to store.
+     Eg. x='hello'. Here x is a variable we declared as a string 'hello'
+     
+
+Q.3  Describe three different data types.
+Ans. A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data.
+     Describing three data types:
+     1. 'int': This data type is used to represent integers like 87 or -18
+     2. 'float': This data type is used to represent fractional integers like 0.9891 or -13.89 .
+     3. 'char': This data type is used to represent a single letter, digit, punctuation mark, symbol, or blank space like 'a' or '!'
+     
+
+Q.4  What is an expression made up of? What do all expressions do?
+Ans. An expression is a combination of operators and operands that is interpreted to produce some other value. If you ask Python to print and expression, the interpreter evaluates the expression and displays the result.
+
+
+Q.5  This assignment statements, like spam = 10. What is the difference between an
+     expression and a statement?
+Ans. An expression evaluates to a value using operands and operators while a statement executes something like creating a variable or
+     displaying a value.
+     
+     
+Q.6  After running the following code, what does the variable bacon contain?
+     bacon = 22
+     bacon + 1     
+Ans. As we did not declare bacon= bacon + 1, python does not assign a new value to 'bacon'.
+     Hence the output will be the original value i.e. bacon = 22
+     
+
+Q.7  What should the values of the following two terms be?
+     'spam' +'spamspam'
+     'spam' * 3
+Ans. For string addition, python attaches the string directly. So the output will be 'spamspamspam' for first epression.
+     Similarly, for string multiplication, python attaches the string with (n-1) number of same strings where 'n' is the integer that is
+     multiplied. Thus the output will be 'spamspamspam'.
+     
+
+Q.8  Why is eggs a valid variable name while 100 is invalid?
+Ans. Variable name cannot be a digit. Therefore eggs is a valid variable name while 100 is not.
+
+
+Q.9  What three functions can be used to get the integer, floating-point number, or string version of a value?
+Ans. To get integer of a value, we have to declare 'int' function.
+     To get floating-point number of a value, we have to declare a 'float' function.
+     To get string version of a value, we have to declare a 'str' function.
+    
+    
+Q.10 Why does this expression cause an error? How can you fix it?
+     'I have eaten ' + 99 + ' burritos'
+Ans. We cannot add an int type value and a string directly. To fix this expreesion, declare 99 a string either by calling a function or just
+     encasing it in ''.
+     
